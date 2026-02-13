@@ -24,7 +24,7 @@ jobs:
 
   lighthouse:
     needs: minify
-    uses: ./.github/workflows/lightHouse.yml
+    uses: ./.github/workflows/lighthouse.yml
     with:
       input_artifact: "site-minified"
       output_artifact: "site-ready"
